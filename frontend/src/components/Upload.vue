@@ -95,7 +95,7 @@ export default {
 						'Content-Type': 'multipart/form-data'
 					}
 				}
-       axios.post('http://localhost:8080/api/upload',formData, config)
+       axios.post('/api/upload',formData, config)
           .then(wait(1500),this.loading = true) // DEV ONLY: wait for 1.5s
           .then(x => {
             debugger
