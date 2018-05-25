@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
+[remote "heroku"]
+	url = https://git.heroku.com/encoder-file.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
